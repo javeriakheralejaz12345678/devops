@@ -1,4 +1,4 @@
-name: CI
+name: Static
 
 # Controls when the workflow will run
 on:
@@ -36,4 +36,4 @@ jobs:
 
       
       - name: Push to AWS
-        run: aws s3 sync . s3://thanwar-devops-bucket
+        run: aws s3 sync . s3://javeria
